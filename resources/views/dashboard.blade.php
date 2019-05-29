@@ -29,7 +29,7 @@
                                     {!! Form::close() !!} 
                                     <a href="/listings/{{$listing->id}}/edit" class="btn btn-primary float-right mr-3">Edit</a> 
                                 </div>                         
-                                <p class="card-text mt-3">{{$listing->bio}} lorem30</p>
+                                <p class="card-text mt-3">{{$listing->bio}}</p>
                             </div>
                         </div>
                     @endforeach
